@@ -6,11 +6,13 @@ body {
 }
 
 section {
+  width: 50%;
   background-color: white;
   border: black 1px solid;
-  padding: 15px 35px;
   margin: 10px;
-  width: 50%;
+  padding: 15px 35px;
+
+ 
 }
 
 table {
@@ -25,8 +27,8 @@ section.enero table {
 }
 
 section.enero caption {
-  font-style: oblique;
   font-weight: bold;
+  font-style: oblique;
   letter-spacing: 4px;
 }
 
@@ -49,21 +51,24 @@ section.febrero table {
   border-collapse: collapse;
   text-align: right;
 }
+
 section.febrero caption {
   font-weight: bold;
   text-align: right;
 }
+
 section.febrero th {
   border-top: none;
   border-bottom: none;
   padding-right: 5px;
 }
+
 section.febrero td {
+  width: 35px;
   border-top: none;
   border-bottom: none;
-  font-size: 150%;
   padding-right: 5px;
-  width: 35px;
+  font-size: 150%;
 }
 
 
@@ -72,19 +77,22 @@ section.marzo table {
   border-collapse: collapse;
   text-align: left;
 }
+
 section.marzo caption {
-  font-variant: small-caps;
-  letter-spacing: 10px;
   margin-bottom: 4px;
   text-align: left;
+  letter-spacing: 10px;
+  font-variant: small-caps;
 }
+
 section.marzo th {
   text-align: center;
 }
+
 section.marzo td {
   width: 50px;
   height: 50px;
+  vertical-align: top;
   padding-left: 5px;
   font-size: 75%;
-  vertical-align: top;
 }
